@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "10284859"))
 API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7824572624:AAG61XO2BkKFB-jY5DG3va8l7CbNWq4aoYs")
+BOT_TOKEN = getenv("BOT_TOKEN", "7983919926:AAG_7fmaTIMzpgedoeJqjmqzoj95-Lxn85o")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Ghostt_Batt")
 # --------------------------------------------------------
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rajeshrakis/HeartBeat-Clone",
+    "https://github.com/reborndigitals/Clonesss",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
