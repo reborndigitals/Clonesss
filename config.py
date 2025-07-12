@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH", "b0ad58eb8b845ba0003e0d9ce5fc2196")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "7983919926:AAG_7fmaTIMzpgedoeJqjmqzoj95-Lxn85o")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ghostt_Batt")
+OWNER_USERNAME = getenv("OWNER_USERNAME","rajeshrakis")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "HeartBeat_RoBot")
 # --------------------------------------------------------
@@ -39,7 +39,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001735663878))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7948585276))
+OWNER_ID = int(getenv("OWNER_ID", 1281282633))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQGrZiMAWaJYVyqh_yBkAnEHtHkclEL9lRXo0RKXuzP6NP0PUJq9F3cyJx7zXnGtfQ5ngwRbXP1Ov81TnpYsNP-RtjHMKMytLNyzGI5V5K9eQpCyiHqdff9aqNKK_OgaO99mC4z5dM8bubUcYQ4wRueBmZ4OaJpECPK6itHrMQlWmxXOdU4iaWjxwVArFBkPIaP1M2JpXq_S3LDS__Fyl9sZn0zgrqe_IEfTO6Z6GkbzappRuelp-sTgIJ2wd6UWBeAqlBua4Gh5hlE_8ngIYhUDacYvbqu88Mawoi1zpj4nXFkl5gGjZ1BhAXDsM6odSqjTD8BWe_VOdqXYxo7vYbnZ7aSG8QAAAAHlyy_cAA")
+STRING1 = getenv("STRING_SESSION", "BQGVn2EAIMVusuvA6ZJB03_eIwbgEluIdZtAn4iKEBfwL3EmBE1O7CFyqFAPBapQu2dW_vD5XiJjhYLAHN_NNs0pnj3yz1ftNsLqUs53YbxrD5XY6d5HLV6PhPsqzzKtpQY2s4YSU8hKAdQNN1zFQ8GjARCvWVtEwCPhv3yhZRYVTMCsKlArtOHMr3lNYsr6W_dFvz8GoiMHp85ZSkFq_mbHpnRgZTkC-ZoxS7pJi_BmYRZi0F9JFaIl1G77NrG17-l_3LDDG3bFL0qr94-MAd8NJ1RKNXphWMjoRCoBLi1ZbbWl08_df9gC7EQ-pNkznJ1izBwG_RrLm6u9KzKnv1LhB-bnsAAAAAGkzbnBAA")
 STRING2 = getenv("STRING_SESSION2", None)
 BANNED_USERS = filters.user()
 adminlist = {}
