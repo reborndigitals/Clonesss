@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Karkulal")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghosttbatt:Ghost@HB2021@ghosttbatt.2j0mzr3.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghosttbatt:Ghost2021@ghosttbatt.2j0mzr3.mongodb.net/?retryWrites=true&w=majority")
 API_KEY = getenv("API_KEY")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
