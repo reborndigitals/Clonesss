@@ -9,6 +9,14 @@ def botplaylist_markup(_):
             InlineKeyboardButton(text=_["S_B_9"], url=SUPPORT_CHAT),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
+        [
+            InlineKeyboardButton(
+                text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/HeartBeat_Offi",
+            ),
+            InlineKeyboardButton(
+                text="ᴄʜᴀᴛ", url=f"https://t.me/HeartBeat_Fam",
+            )
+        ],
     ]
     return buttons
 
@@ -21,7 +29,15 @@ def close_markup(_):
                     text=_["CLOSE_BUTTON"],
                     callback_data="close",
                 ),
-            ]
+            ],
+            [
+            InlineKeyboardButton(
+                text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/HeartBeat_Offi",
+            ),
+            InlineKeyboardButton(
+                text="ᴄʜᴀᴛ", url=f"https://t.me/HeartBeat_Fam",
+            )
+            ],
         ]
     )
     return upl
@@ -35,7 +51,15 @@ def supp_markup(_):
                     text=_["S_B_9"],
                     url=SUPPORT_CHAT,
                 ),
-            ]
+            ],
+            [
+            InlineKeyboardButton(
+                text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/HeartBeat_Offi",
+            ),
+            InlineKeyboardButton(
+                text="ᴄʜᴀᴛ", url=f"https://t.me/HeartBeat_Fam",
+            )
+            ],
         ]
     )
     return upl
