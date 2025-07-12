@@ -70,12 +70,12 @@ async def clone_txt(client, message):
             clonebotdb.insert_one(details)
             CLONES.add(bot.id)
             await mi.edit_text(
-                f"Bot @{bot.username} has been successfully cloned and started ✅.\n**Remove cloned by :- /delclone**"
+                f"Bot @{bot.username} has been successfully cloned and started ✅.\n**Remove cloned by :- /delclone \n\n 𝗝𝗼𝗶𝗻: @HeartBeat_Fam **"
             )
         except BaseException as e:
-            logging.exception("Error while cloning bot.")
+            logging.exception("Error while cloning bot. 𝐉𝐨𝐢𝐧: @HeartBeat_Fam")
             await mi.edit_text(
-                f"⚠️ <b>ᴇʀʀᴏʀ:</b>\n\n<code>{e}</code>\n\n**ᴋɪɴᴅʟʏ ғᴏᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ @vk_zone ᴛᴏ ɢᴇᴛ ᴀssɪsᴛᴀɴᴄᴇ**"
+                f"⚠️ <b>ᴇʀʀᴏʀ:</b>\n\n<code>{e}</code>\n\n**ᴋɪɴᴅʟʏ ғᴏᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ @HeartBeat_Fam admins ᴛᴏ ɢᴇᴛ ᴀssɪsᴛᴀɴᴄᴇ**"
             )
     else:
         await message.reply_text(
@@ -111,14 +111,14 @@ async def delete_cloned_bot(client, message):
             clonebotdb.delete_one({"token": bot_token})
             CLONES.remove(cloned_bot["bot_id"])
             await message.reply_text(
-                "**🤖 your cloned bot has been disconnected from my server ☠️\nClone by :- /clone**"
+                "**🤖 your cloned bot has been disconnected from my server ☠️\nClone by :- /clone \n\n 𝗝𝗼𝗶𝗻: @HeartBeat_Fam **"
             )
         else:
             await message.reply_text(
                 "**⚠️ The provided bot token is not in the cloned list.**"
             )
     except Exception as e:
-        await message.reply_text("An error occurred while deleting the cloned bot.")
+        await message.reply_text("An error occurred while deleting the cloned bot. \n 𝗝𝗼𝗶𝗻: @HeartBeat_Fam ")
         logging.exception(e)
 
 
