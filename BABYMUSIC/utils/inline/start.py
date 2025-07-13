@@ -16,7 +16,7 @@ def start_panel(_):
             InlineKeyboardButton(text="▪️sᴇᴛ▪️", callback_data="settings_helper"),
         ],
         [
-            InlineKeyboardButton(text="▪️sᴜᴘᴘᴏʀᴛ▪️", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="▪️sᴜᴘᴘᴏʀᴛ▪️", url=config.CHAT),
         ],
     ]
     return buttons
