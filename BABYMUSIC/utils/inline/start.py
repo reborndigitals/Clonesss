@@ -31,7 +31,7 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="▪️sᴜᴘᴘᴏꝛᴛ▪️", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="▪️sᴜᴘᴘᴏꝛᴛ▪️", url=config.CHAT),
             InlineKeyboardButton(text="▪️ᴜᴘᴅᴀᴛᴇ▪️", url=config.SUPPORT_CHANNEL),    
         ],
         [
