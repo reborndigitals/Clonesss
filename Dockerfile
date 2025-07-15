@@ -1,7 +1,5 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
-
-RUN deb http://archive.debian.org/debian jessie-backports main
-RUN sudo apt install -t jessie-backports ffmpeg
+#FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM python:3.10
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
