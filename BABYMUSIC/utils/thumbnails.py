@@ -2,7 +2,6 @@ import os
 import re
 import aiofiles
 import aiohttp
-import gen_thumb
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
