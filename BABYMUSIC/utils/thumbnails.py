@@ -65,7 +65,7 @@ def crop_center_circle(img, output_size, border, crop_scale=1.5):
     return result
 
 
-async def gen_thumb(videoid):
+async def get_thumb(videoid):
     if os.path.isfile(f"cache/{videoid}_v4.png"):
         return f"cache/{videoid}_v4.png"
 
@@ -163,8 +163,8 @@ async def gen_thumb(videoid):
 
 
 
-
-async def get_thumb(videoid):
+#gen_thumb clone bot
+async def gen_thumb(videoid):
     if os.path.isfile(f"cache/{videoid}_v4.png"):
         return f"cache/{videoid}_v4.png"
 
