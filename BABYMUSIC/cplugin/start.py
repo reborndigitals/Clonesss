@@ -107,7 +107,7 @@ async def start_pm(client, message: Message, _):
             )
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=OWNER_ID),
+            InlineKeyboardButton(text=_["S_B_7"], url=config.CHAT),
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
         ],
         [
