@@ -117,7 +117,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQGVn2EAIMVusuvA6ZJB03_eIwbgEluIdZtAn4iKEBfwL3EmBE1O7CFyqFAPBapQu2dW_vD5XiJjhYLAHN_NNs0pnj3yz1ftNsLqUs53YbxrD5XY6d5HLV6PhPsqzzKtpQY2s4YSU8hKAdQNN1zFQ8GjARCvWVtEwCPhv3yhZRYVTMCsKlArtOHMr3lNYsr6W_dFvz8GoiMHp85ZSkFq_mbHpnRgZTkC-ZoxS7pJi_BmYRZi0F9JFaIl1G77NrG17-l_3LDDG3bFL0qr94-MAd8NJ1RKNXphWMjoRCoBLi1ZbbWl08_df9gC7EQ-pNkznJ1izBwG_RrLm6u9KzKnv1LhB-bnsAAAAAGkzbnBAA")
+STRING1 = getenv("STRING_SESSION", "BQFexMIAVarMZiAmy_yEvL8MSnJ8ZVYZp0f60LHNWt6tCW16YxoPZJ73sMg8iDDqdjIAnL5fuooDJlVaag40bNjl97drp4cnftWR2sP2pbp3Nr2HZnvuXAndvDKUgSxibAT-dBIFk3SpNaydzznikXETc-_sQbCSfOMWNWc2VbnwLf-jHZ_tHWXXZutPkbKbu8A7g24JKobQw-9lHi0w5K7b4Y4Mg9P4ZdCTEJfHUR0mvzV1hNcSgVnlebYsiUIO7P1CkQwMO1qMgaWjwTCrreFbR4FiO38DAjns3LequNmcDcIM9JOVJUxZkMU3ESQ1cKUvQVQOukppKtxutpABqU_cLtYUewAAAAHoATkvAA")
 STRING2 = getenv("STRING_SESSION2", None)
 BANNED_USERS = filters.user()
 adminlist = {}
