@@ -1,4 +1,4 @@
-
+from heartbeat import heartbeat
 import asyncio
 import importlib
 
@@ -56,4 +56,5 @@ async def init():
 
 
 if __name__ == "__main__":
+    heartbeat()
     asyncio.get_event_loop().run_until_complete(init())
